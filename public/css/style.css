@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+label{
+    display: block;
+}
+
+textarea{
+    height: 50px;
+    display: block;
+}
