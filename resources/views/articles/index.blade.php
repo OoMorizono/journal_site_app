@@ -8,8 +8,8 @@
 </head>
 <body>
     <p>論文一覧</p>
-    <p><a href="/articles/{{ $articles[0]->id }}">{{ $articles[0]->title }}</a></p>
-    <p><a href="/articles/{{ $articles[1]->id }}">{{ $articles[1]->title }}</a></p>
-    <p><a href="/articles/{{ $articles[2]->id }}">{{ $articles[2]->title }}</a></p>
+    @foreach ($articles as $article)
+    <p><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></p>
+    @endforeach
 </body>
 </html>
