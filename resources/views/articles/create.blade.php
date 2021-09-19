@@ -17,7 +17,7 @@
         <input type="text" name="title" size="">
         <label for="body">本文</label>
         <textarea name="body"></textarea>
-        <br>
+        
         <input type="submit" value="投稿">
     </form>
 </body>
