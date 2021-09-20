@@ -27,7 +27,6 @@ class ArticleController extends Controller
         $article = new Article;
 
         //値の用意
-        $article->timestamps = false;
         $article->title = $request->title;
         $article->body = $request->body;
 
@@ -56,7 +55,6 @@ class ArticleController extends Controller
         $article = Article::find($id);
 
 
-        $article->timestamps = false;
         $article->title = $request->title;
         $article->body = $request->body;
 

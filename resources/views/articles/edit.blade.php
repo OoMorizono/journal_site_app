@@ -16,7 +16,6 @@
             <label for="title">論文タイトル</label>
             <input type="text" name="title" value="{{ $article->title }}">
             <label for="body">本文</label>
-            {{-- <input type="textarea" name="title" value="{{ $article->body }}" > --}}
             <textarea name="body">
                 {{ $article->body }}
             </textarea>
