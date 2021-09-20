@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+label{
+    display: block;
+}
+
+input[type="textarea"]{
+    resize:both;
+    height: 50px;
+    display: block;
+}
+
+input[type="submit"]{
+    display: block;
+}
+
+.button-group {
+    display: flex;
+}
+.button-group button {
+    margin-right: 10px;
+}
+
